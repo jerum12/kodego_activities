@@ -1,0 +1,38 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+.heading-underline {
+    width: 69rem;
+    height: .2rem;
+    background-color: gray;
+    margin: 0 auto 2rem;
+}
+
+#screen {
+    width: 100%;
+    text-align: right;
+}
+
+.button {
+    width: 100%;
+    background-color: gray;
+}
+
+.button-blue {
+    width: 100%;
+    background-color: rgb(137, 143, 233);
+}
+
+.button-yellow {
+    width: 100%;
+    background-color: yellow;
+}
+
+
