@@ -10,6 +10,20 @@
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js.map"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script>
+        function clearScreen() {
+             document.getElementById('result').value = "";
+            }
+
+        function display(value) {
+             document.getElementById('result').value += value;
+            }   
+
+        function compute() {
+             let x = document.getElementById('result').value;
+            alert(x);
+            }
+    </script>
 </head>
 <body>
     <div class="container mt-3">
@@ -50,7 +64,7 @@
             <td> <input class="btn btn-warning w-100 text-black" type="button" value="=" onclick="compute('result')" /> </td>
         </tr>
        </table>
-       <script type="text/javascript" src="js/script.js"></script>
+       <script type="text/javascript"></script>
     </div>
 
 
