@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js.map"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container mt-3">
+        <div class="jumbotron">
+            <h1 class="display-4">Welcome!</h1>
+            <p class="lead">My First JavaScript Exercise</p>
+        </div>
+        <hr class="my-4">
+        
+        <div class="container-fluid">
+        <table class="table">
+        <tr>
+            <td colspan="8"> <input class="w-100" type="text" id="result" disabled /> </td>
+            <td> <input class="btn btn-primary w-100 text-white" type="button" value="Clear" onclick="clearScreen()" /> </td>
+            <td> <input class="btn btn-primary w-100 text-white" type="button" value="/" onclick="display('/')" /> </td>
+        </tr>
+        <tr>
+            <td colspan="4"> <input class="bg-secondary w-100 text-white"  type="button" value="7" onclick="display('7')" /></td>
+            <td colspan="4"> <input class="bg-secondary w-100 text-white" type="button" value="8" onclick="display('8')" /></td>
+            <td> <input class="bg-secondary w-100 text-white" type="button" value="9" onclick="display('9')" /></td>
+            <td> <input class="btn btn-primary w-100 text-white" type="button" value="*" onclick="display('*')" /></td>
+        </tr>
+        <tr>
+            <td colspan="4"> <input class="bg-secondary w-100 text-white" type="button" value="4" onclick="display('4')" /> </td>
+            <td colspan="4"> <input class="bg-secondary w-100 text-white" type="button" value="5" onclick="display('5')" /> </td>
+            <td> <input class="bg-secondary w-100 text-white" type="button" value="6" onclick="display('6')" /> </td>
+            <td> <input class="btn btn-primary w-100 text-white" type="button" value="-" onclick="display('-')" /> </td>
+        </tr>
+        <tr>
+            <td colspan="4"> <input class="bg-secondary w-100 text-white" type="button" value="1" onclick="display('1')" /> </td>
+            <td colspan="4"> <input class="bg-secondary w-100 text-white" type="button" value="2" onclick="display('2')" /> </td>
+            <td> <input class="bg-secondary w-100 text-white" type="button" value="3" onclick="display('3')" /> </td>
+            <td> <input class="btn btn-primary w-100 text-white" type="button" value="+" onclick="display('+')" /> </td>
+        </tr>
+        <tr>
+            <td colspan="8"> <input class="bg-secondary w-100 text-white" type="button" value="0" onclick="display('0')" /> </td>
+            <td> <input class="bg-secondary w-100 text-white" type="button" value="." onclick="display('.')" /> </td>
+            <td> <input class="btn btn-warning w-100 text-black" type="button" value="=" onclick="compute('result')" /> </td>
+        </tr>
+       </table>
+       <script type="text/javascript" src="js/script.js"></script>
+    </div>
+
+
+
+        
+    </div>
+</body>
+</html>
