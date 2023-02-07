@@ -125,6 +125,10 @@
       newtodo.innerText = document.getElementById('addTask').value;
       newtodo.appendChild(snew);
       document.getElementById('loadedTask').prepend(newtodo);
+      newtodo.onclick = function () {
+      var div = this;
+      div.style.display = "none";
+         }
       }
       
     
