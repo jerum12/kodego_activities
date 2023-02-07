@@ -41,8 +41,9 @@ var presidents = [
  var div = document.createElement('div');
  div.classList.add('container');
  img.setAttribute('src', 'logo.png');
-   
  rootContainer.appendChild(img);
+rootContainer.appendChild(div)
+
 
 
 
@@ -64,8 +65,8 @@ var presidents = [
   // var detailsNode = document.createTextNode(presidents[i].details);
   div1.appendChild(header);
   div1.appendChild(p);
-
-  div2.appendChild(div1);
+  div.appendChild(div1);
+  // div2.appendChild(div1);
 rootContainer.appendChild(div2);
 
 });
