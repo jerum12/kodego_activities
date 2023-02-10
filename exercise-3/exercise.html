@@ -106,20 +106,20 @@
     
     function addTodo() {
       let newtodo = document.createElement('div');
-      let snew = document.createElement('span');
-      let bnew = document.createElement('button');
-      let ynew = document.createElement('i');
+      let spannew = document.createElement('span');
+      let buttonnew = document.createElement('button');
+      let anew = document.createElement('i');
       var p = document.createElement('div');
-      bnew.classList.add("btn")
-      bnew.classList.add("btn-danger")
-      ynew.classList.add("fas")
-      ynew.classList.add("fa-times")
-      snew.classList.add("taskname")
-      bnew.appendChild(ynew);
-      snew.appendChild(bnew);
+      buttonnew.classList.add("btn")
+      buttonnew.classList.add("btn-danger")
+      anew.classList.add("fas")
+      anew.classList.add("fa-times")
+      anew.classList.add("taskname")
+      buttonnew.appendChild(anew);
+      anew.appendChild(buttonnew);
       newtodo.classList.add('task');
       newtodo.innerText = document.getElementById('addTask').value;
-      newtodo.appendChild(snew);
+      newtodo.appendChild(spannew);
       document.getElementById('loadedTask').prepend(newtodo);
       newtodo.onclick = function () {
       var div = this;
