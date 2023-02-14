@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../Mini_Project/Index"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501,
+		"liveServer.settings.multiRootWorkspaceName": "Day 2"
+	}
+}
