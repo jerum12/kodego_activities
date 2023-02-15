@@ -56,7 +56,7 @@
                     <td><button type="button" class="btn btn-secondary" value="0" onclick="display('0')">0</button> </td> 
                   
                     <td><button type="button" class="btn btn-secondary" value="." onclick="display('.')">.</button></td> 
-                    <td><button type="button" class="btn btn-warning" value="=" onclick="alert('Hello')">=</button></td>  
+                    <td><button type="button" class="btn btn-warning" value="=" onclick="solve()">=</button></td>  
                 </tr>
 
             </table>
@@ -71,6 +71,13 @@
     }
     function clearScreen(){
         document.getElementById('result').value ="";
+    }
+
+    function solve(){
+        let x = document.getElementById('result').value;
+        let y = eval(x);
+        document.getElementById('result').value = y;
+        return y;
     }
 
 </script>
