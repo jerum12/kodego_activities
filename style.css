@@ -1,44 +1,140 @@
-* {
-    box-sizing: border-box;
+body {
+    background-color: #f2f2f2;
+    height: 95vh;
   }
   
-  h1 {
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
     text-align: center;
-    padding: 1.5rem 2.5rem;
-    background-image: linear-gradient(120deg, #fbc2eb 0%, #a6c1ee 100%);
-    margin: 0 0 2rem 0;
-    font-size: 1.5rem;
-    color: rgb(0, 0, 0);
   }
   
-  img {
-    display: block;
-    margin: 1rem auto;
-    max-width: 100%;
+  .profile {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #ddd;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    width: 50%;
   }
   
-  p {
-    padding: 0 2.5rem 2.5rem;
+  .profile img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+  }
+  
+  nav {
+    background-color: #333;
+  }
+  
+  nav ul {
+    list-style-type: none;
     margin: 0;
-  }
-  
-  .container {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .card {
-    margin: 1rem;
-    background: white;
-    box-shadow: 2px 4px 25px rgba(0, 0, 0, 0.1);
-    border-radius: 12px;
+    padding: 0;
     overflow: hidden;
-    transition: all 0.2s linear;
-    flex: 1 1 calc(33% - 2rem);
   }
   
-  .card:hover {
-    box-shadow: 2px 8px 45px rgba(0, 0, 0, 0.15);
-    transform: translate3D(0, -2px, 0);
+  nav li {
+    float: left;
   }
   
+  nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav li a:hover {
+    background-color: #111;
+  }
+  
+  section {
+    padding: 50px;
+  }
+  
+  button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+  }
+  
+  form {
+    margin: 0 auto;
+    width: 80%;
+    max-width: 500px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  form input[type='text'],
+  form input[type='email'],
+  form input[type='password'],
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+  
+    border-radius: 5px;
+    background-color: #f0f0f0;
+  }
+  
+  form input[type='submit'] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+  
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  form {
+    margin: 0 auto;
+    width: 80%;
+    max-width: 500px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  form input[type='text'],
+  form input[type='email'],
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+  
+    border-radius: 5px;
+    background-color: #f0f0f0;
+  }
+  
+  form input[type='submit'] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
