@@ -1,0 +1,85 @@
+/* ------------------------------------------------------------------------- STYLE.CSS ------------------------------------------------------------------------------------- */
+*,
+html,
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  margin-top: 30px;
+}
+
+#icon {
+  color: red;
+}
+
+.container {
+  /* max-inline-size: 22rem; */
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.15),
+    0px 2px 4px 0px rgba(0, 0, 0, 0.12);
+}
+
+table {
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #1a1b28;
+}
+
+#result {
+  width: 100%;
+  padding: 10px 30px;
+  font-size: 35px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  border: 2px solid black;
+  text-align: right;
+  justify-content: flex-end;
+  align-items: center;
+  transition: all 0.3s ease-in;
+}
+
+.calc_key {
+  width: 100%;
+  padding: 20px 40px;
+  font-size: 24px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
+
+.numbers {
+  background-color: #1e2435;
+  color: white;
+}
+
+.key-operator {
+  background-color: #52c9dc;
+}
+
+.key-clear,
+.key-equals {
+  background-color: #e48020;
+}
+
+.key-operator:hover {
+  background-color: #ffdbdc;
+  transition: all 0.5s linear;
+}
+
+.key-clear:hover {
+  background-color: #ffdbdc;
+  transition: all 0.5s linear;
+}
+
+.key-equals:hover {
+  background-color: #ffdbdc;
+  transition: all 0.5s linear;
+}
+
+.numbers:hover {
+  background-color: #eaa0a2;
+  transition: all 0.5s linear;
+}
